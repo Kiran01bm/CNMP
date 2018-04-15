@@ -1,0 +1,18 @@
+[01:30:10 main  ]MASTERCOIN - bootstrap.. 
+[01:30:10 Thread-1  ]MASTERCOIN - Pattern checking for entry and once entered monitor till exit!! 
+[01:30:10 main  ]VOLATILECOIN - bootstrap.. 
+[01:30:10 Thread-2  ]VOLATILECOIN - Pattern checking for entry and once entered monitor till exit!! 
+[01:30:10 main  ]DOWNTRENDINGCOIN - bootstrap.. 
+[01:30:10 Thread-3  ]DOWNTRENDINGCOIN - Pattern checking for entry and once entered monitor till exit!! 
+[01:30:10 main  ]ZIGZAGCOIN - bootstrap.. 
+[01:30:10 Thread-4  ]ZIGZAGCOIN - Pattern checking for entry and once entered monitor till exit!! 
+[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [-1.0, -1.0, -1.0, -3.77] 
+[01:30:10 Thread-4  ]ZIGZAGCOIN - regressionAggregates --> [-1.0, -1.0, -1.0, -1.0] 
+[01:30:10 Thread-3  ]DOWNTRENDINGCOIN - regressionAggregates --> [-1.0, -1.0, -1.0, -1.0] 
+[01:30:10 Thread-2  ]VOLATILECOIN - regressionAggregates --> [-0.1, -0.35, -0.37, -0.17] 
+[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [-1.0, -0.85, -0.56, -0.42] 
+[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [0.0, 0.01, 0.01, 0.01] 
+[01:30:10 Thread-1  ]MASTERCOIN is in Uptrend 
+[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [0.01, 0.01, 0.01, 0.01] 
+[01:30:10 Thread-1  ]MASTERCOIN is in Uptrend 
+[01:30:10 Thread-1  ]MASTERCOIN can now be bought.. 
