@@ -1,18 +1,563 @@
-[01:30:10 main  ]MASTERCOIN - bootstrap.. 
-[01:30:10 Thread-1  ]MASTERCOIN - Pattern checking for entry and once entered monitor till exit!! 
-[01:30:10 main  ]VOLATILECOIN - bootstrap.. 
-[01:30:10 Thread-2  ]VOLATILECOIN - Pattern checking for entry and once entered monitor till exit!! 
-[01:30:10 main  ]DOWNTRENDINGCOIN - bootstrap.. 
-[01:30:10 Thread-3  ]DOWNTRENDINGCOIN - Pattern checking for entry and once entered monitor till exit!! 
-[01:30:10 main  ]ZIGZAGCOIN - bootstrap.. 
-[01:30:10 Thread-4  ]ZIGZAGCOIN - Pattern checking for entry and once entered monitor till exit!! 
-[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [-1.0, -1.0, -1.0, -3.77] 
-[01:30:10 Thread-4  ]ZIGZAGCOIN - regressionAggregates --> [-1.0, -1.0, -1.0, -1.0] 
-[01:30:10 Thread-3  ]DOWNTRENDINGCOIN - regressionAggregates --> [-1.0, -1.0, -1.0, -1.0] 
-[01:30:10 Thread-2  ]VOLATILECOIN - regressionAggregates --> [-0.1, -0.35, -0.37, -0.17] 
-[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [-1.0, -0.85, -0.56, -0.42] 
-[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [0.0, 0.01, 0.01, 0.01] 
-[01:30:10 Thread-1  ]MASTERCOIN is in Uptrend 
-[01:30:10 Thread-1  ]MASTERCOIN - regressionAggregates --> [0.01, 0.01, 0.01, 0.01] 
-[01:30:10 Thread-1  ]MASTERCOIN is in Uptrend 
-[01:30:10 Thread-1  ]MASTERCOIN can now be bought.. 
+[06:26:00 main  ]NEBLBTC - bootstrap.. 
+[06:26:00 Thread-1  ]NEBLBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]DASHBTC - bootstrap.. 
+[06:26:00 Thread-2  ]DASHBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]POABTC - bootstrap.. 
+[06:26:00 Thread-3  ]POABTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]STORMBTC - bootstrap.. 
+[06:26:00 Thread-4  ]STORMBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]VIBBTC - bootstrap.. 
+[06:26:00 main  ]OSTBTC - bootstrap.. 
+[06:26:00 Thread-5  ]VIBBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ZILBTC - bootstrap.. 
+[06:26:00 main  ]MTHBTC - bootstrap.. 
+[06:26:00 Thread-6  ]OSTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-7  ]ZILBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]XMRBTC - bootstrap.. 
+[06:26:00 Thread-8  ]MTHBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]WTCBTC - bootstrap.. 
+[06:26:00 main  ]CMTBTC - bootstrap.. 
+[06:26:00 Thread-9  ]XMRBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-10  ]WTCBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]BRDBTC - bootstrap.. 
+[06:26:00 Thread-11  ]CMTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-12  ]BRDBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ETHBTC - bootstrap.. 
+[06:26:00 main  ]DGDBTC - bootstrap.. 
+[06:26:00 Thread-13  ]ETHBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-14  ]DGDBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]NEOBTC - bootstrap.. 
+[06:26:00 main  ]AIONBTC - bootstrap.. 
+[06:26:00 Thread-15  ]NEOBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]NULSBTC - bootstrap.. 
+[06:26:00 Thread-16  ]AIONBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-17  ]NULSBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]RCNBTC - bootstrap.. 
+[06:26:00 main  ]LENDBTC - bootstrap.. 
+[06:26:00 Thread-18  ]RCNBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]WANBTC - bootstrap.. 
+[06:26:00 Thread-19  ]LENDBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]BCCBTC - bootstrap.. 
+[06:26:00 Thread-20  ]WANBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ETCBTC - bootstrap.. 
+[06:26:00 Thread-21  ]BCCBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]BTGBTC - bootstrap.. 
+[06:26:00 Thread-22  ]ETCBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]QLCBTC - bootstrap.. 
+[06:26:00 Thread-23  ]BTGBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ENJBTC - bootstrap.. 
+[06:26:00 Thread-24  ]QLCBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-25  ]ENJBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ZRXBTC - bootstrap.. 
+[06:26:00 Thread-26  ]ZRXBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ICXBTC - bootstrap.. 
+[06:26:00 main  ]WPRBTC - bootstrap.. 
+[06:26:00 Thread-27  ]ICXBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]DLTBTC - bootstrap.. 
+[06:26:00 Thread-28  ]WPRBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-29  ]DLTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]STRATBTC - bootstrap.. 
+[06:26:00 Thread-30  ]STRATBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]CLOAKBTC - bootstrap.. 
+[06:26:00 Thread-31  ]CLOAKBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]POWRBTC - bootstrap.. 
+[06:26:00 Thread-32  ]POWRBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ADABTC - bootstrap.. 
+[06:26:00 Thread-33  ]ADABTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]BCPTBTC - bootstrap.. 
+[06:26:00 Thread-34  ]BCPTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]LINKBTC - bootstrap.. 
+[06:26:00 Thread-35  ]LINKBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]STEEMBTC - bootstrap.. 
+[06:26:00 Thread-36  ]STEEMBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]BLZBTC - bootstrap.. 
+[06:26:00 Thread-37  ]BLZBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]QTUMBTC - bootstrap.. 
+[06:26:00 Thread-38  ]QTUMBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]MTLBTC - bootstrap.. 
+[06:26:00 Thread-39  ]MTLBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]SALTBTC - bootstrap.. 
+[06:26:00 Thread-40  ]SALTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]GRSBTC - bootstrap.. 
+[06:26:00 main  ]POEBTC - bootstrap.. 
+[06:26:00 Thread-41  ]GRSBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-42  ]POEBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]XLMBTC - bootstrap.. 
+[06:26:00 Thread-43  ]XLMBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]EDOBTC - bootstrap.. 
+[06:26:00 Thread-44  ]EDOBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]NANOBTC - bootstrap.. 
+[06:26:00 Thread-45  ]NANOBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]XEMBTC - bootstrap.. 
+[06:26:00 Thread-46  ]XEMBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ELFBTC - bootstrap.. 
+[06:26:00 Thread-47  ]ELFBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]AMBBTC - bootstrap.. 
+[06:26:00 Thread-48  ]AMBBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]LSKBTC - bootstrap.. 
+[06:26:00 Thread-49  ]LSKBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]TRIGBTC - bootstrap.. 
+[06:26:00 main  ]PPTBTC - bootstrap.. 
+[06:26:00 Thread-50  ]TRIGBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 Thread-51  ]PPTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]IOSTBTC - bootstrap.. 
+[06:26:00 Thread-52  ]IOSTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]LTCBTC - bootstrap.. 
+[06:26:00 Thread-53  ]LTCBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]WAVESBTC - bootstrap.. 
+[06:26:00 Thread-54  ]WAVESBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]NCASHBTC - bootstrap.. 
+[06:26:00 Thread-55  ]NCASHBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]SUBBTC - bootstrap.. 
+[06:26:00 Thread-56  ]SUBBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]GTOBTC - bootstrap.. 
+[06:26:00 Thread-57  ]GTOBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]EOSBTC - bootstrap.. 
+[06:26:00 Thread-58  ]EOSBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]IOTABTC - bootstrap.. 
+[06:26:00 Thread-59  ]IOTABTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]SNTBTC - bootstrap.. 
+[06:26:00 Thread-60  ]SNTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]XRPBTC - bootstrap.. 
+[06:26:00 Thread-61  ]XRPBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ENGBTC - bootstrap.. 
+[06:26:00 Thread-62  ]ENGBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ONTBTC - bootstrap.. 
+[06:26:00 Thread-63  ]ONTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]MDABTC - bootstrap.. 
+[06:26:00 Thread-64  ]MDABTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]OMGBTC - bootstrap.. 
+[06:26:00 Thread-65  ]OMGBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]MCOBTC - bootstrap.. 
+[06:26:00 Thread-66  ]MCOBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]GVTBTC - bootstrap.. 
+[06:26:00 Thread-67  ]GVTBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]BQXBTC - bootstrap.. 
+[06:26:00 Thread-68  ]BQXBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]VENBTC - bootstrap.. 
+[06:26:00 Thread-69  ]VENBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]TRXBTC - bootstrap.. 
+[06:26:00 Thread-70  ]TRXBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]XVGBTC - bootstrap.. 
+[06:26:00 Thread-71  ]XVGBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]BNBBTC - bootstrap.. 
+[06:26:00 Thread-72  ]BNBBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]ZECBTC - bootstrap.. 
+[06:26:00 Thread-73  ]ZECBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:00 main  ]HSRBTC - bootstrap.. 
+[06:26:00 Thread-74  ]HSRBTC - Pattern checking for entry and once entered monitor till exit!! 
+[06:26:46 Thread-6  ]OSTBTC is in Uptrend [2.802E-5, 2.811E-5, 2.811E-5, 2.811E-5][OSTBTC, OSTBTC, OSTBTC, OSTBTC] 
+[06:26:47 Thread-21  ]BCCBTC seeing downticks.. 
+[06:26:47 Thread-21  ]BCCBTC is in downtrend.. 
+[06:26:47 Thread-22  ]ETCBTC seeing downticks.. 
+[06:26:47 Thread-22  ]ETCBTC is in downtrend.. 
+[06:26:47 Thread-5  ]VIBBTC is in Uptrend [2.23E-5, 2.23E-5, 2.23E-5, 2.23E-5][VIBBTC, VIBBTC, VIBBTC, VIBBTC] 
+[06:26:47 Thread-3  ]POABTC is in Uptrend [6.848E-5, 6.848E-5, 6.848E-5, 6.848E-5][POABTC, POABTC, POABTC, POABTC] 
+[06:26:47 Thread-12  ]BRDBTC seeing downticks.. 
+[06:26:47 Thread-12  ]BRDBTC is in downtrend.. 
+[06:26:47 Thread-32  ]POWRBTC seeing downticks.. 
+[06:26:47 Thread-32  ]POWRBTC is in downtrend.. 
+[06:26:47 Thread-9  ]XMRBTC is in Uptrend [0.029575, 0.029575, 0.029575, 0.029575][XMRBTC, XMRBTC, XMRBTC, XMRBTC] 
+[06:26:47 Thread-16  ]AIONBTC is in Uptrend [3.821E-4, 3.821E-4, 3.821E-4, 3.821E-4][AIONBTC, AIONBTC, AIONBTC, AIONBTC] 
+[06:26:47 Thread-7  ]ZILBTC seeing downticks.. 
+[06:26:47 Thread-7  ]ZILBTC is in downtrend.. 
+[06:26:47 Thread-1  ]NEBLBTC seeing downticks.. 
+[06:26:47 Thread-1  ]NEBLBTC is in downtrend.. 
+[06:26:47 Thread-17  ]NULSBTC is in Uptrend [3.1293E-4, 3.1293E-4, 3.1293E-4, 3.1293E-4][NULSBTC, NULSBTC, NULSBTC, NULSBTC] 
+[06:26:47 Thread-31  ]CLOAKBTC is in Uptrend [0.0017824, 0.0017824, 0.0017824, 0.0017824][CLOAKBTC, CLOAKBTC, CLOAKBTC, CLOAKBTC] 
+[06:26:47 Thread-14  ]DGDBTC is in Uptrend [0.030534, 0.030534, 0.030534, 0.030559][DGDBTC, DGDBTC, DGDBTC, DGDBTC] 
+[06:26:47 Thread-13  ]ETHBTC seeing downticks.. 
+[06:26:47 Thread-13  ]ETHBTC is in downtrend.. 
+[06:26:47 Thread-19  ]LENDBTC is in Uptrend [8.03E-6, 8.03E-6, 8.03E-6, 8.03E-6][LENDBTC, LENDBTC, LENDBTC, LENDBTC] 
+[06:26:47 Thread-60  ]SNTBTC is in Uptrend [1.693E-5, 1.693E-5, 1.693E-5, 1.693E-5][SNTBTC, SNTBTC, SNTBTC, SNTBTC] 
+[06:26:47 Thread-49  ]LSKBTC is in Uptrend [0.0013953, 0.0013953, 0.001396, 0.001399][LSKBTC, LSKBTC, LSKBTC, LSKBTC] 
+[06:26:47 Thread-37  ]BLZBTC is in Uptrend [6.651E-5, 6.651E-5, 6.651E-5, 6.657E-5][BLZBTC, BLZBTC, BLZBTC, BLZBTC] 
+[06:26:47 Thread-2  ]DASHBTC is in Uptrend [0.052122, 0.052217, 0.052217, 0.052217][DASHBTC, DASHBTC, DASHBTC, DASHBTC] 
+[06:26:47 Thread-65  ]OMGBTC seeing downticks.. 
+[06:26:47 Thread-30  ]STRATBTC seeing downticks.. 
+[06:26:47 Thread-18  ]RCNBTC seeing downticks.. 
+[06:26:47 Thread-28  ]WPRBTC is in Uptrend [1.644E-5, 1.645E-5, 1.645E-5, 1.645E-5][WPRBTC, WPRBTC, WPRBTC, WPRBTC] 
+[06:26:47 Thread-59  ]IOTABTC seeing downticks.. 
+[06:26:47 Thread-25  ]ENJBTC is in Uptrend [1.602E-5, 1.602E-5, 1.602E-5, 1.602E-5][ENJBTC, ENJBTC, ENJBTC, ENJBTC] 
+[06:26:47 Thread-26  ]ZRXBTC is in Uptrend [1.1099E-4, 1.1099E-4, 1.1099E-4, 1.1099E-4][ZRXBTC, ZRXBTC, ZRXBTC, ZRXBTC] 
+[06:26:47 Thread-65  ]OMGBTC is in downtrend.. 
+[06:26:47 Thread-30  ]STRATBTC is in downtrend.. 
+[06:26:47 Thread-59  ]IOTABTC is in downtrend.. 
+[06:26:47 Thread-18  ]RCNBTC is in downtrend.. 
+[06:26:47 Thread-23  ]BTGBTC seeing downticks.. 
+[06:26:47 Thread-69  ]VENBTC is in Uptrend [4.51E-4, 4.51E-4, 4.51E-4, 4.51E-4][VENBTC, VENBTC, VENBTC, VENBTC] 
+[06:26:47 Thread-72  ]BNBBTC is in Uptrend [0.0014629, 0.0014629, 0.0014629, 0.0014629][BNBBTC, BNBBTC, BNBBTC, BNBBTC] 
+[06:26:47 Thread-11  ]CMTBTC seeing downticks.. 
+[06:26:47 Thread-23  ]BTGBTC is in downtrend.. 
+[06:26:47 Thread-11  ]CMTBTC is in downtrend.. 
+[06:26:47 Thread-15  ]NEOBTC seeing downticks.. 
+[06:26:47 Thread-29  ]DLTBTC is in Uptrend [2.963E-5, 2.963E-5, 2.963E-5, 2.963E-5][DLTBTC, DLTBTC, DLTBTC, DLTBTC] 
+[06:26:47 Thread-15  ]NEOBTC is in downtrend.. 
+[06:26:47 Thread-10  ]WTCBTC seeing downticks.. 
+[06:26:47 Thread-10  ]WTCBTC is in downtrend.. 
+[06:26:47 Thread-33  ]ADABTC seeing downticks.. 
+[06:26:47 Thread-33  ]ADABTC is in downtrend.. 
+[06:26:47 Thread-20  ]WANBTC seeing downticks.. 
+[06:26:47 Thread-20  ]WANBTC is in downtrend.. 
+[06:26:47 Thread-67  ]GVTBTC is in Uptrend [0.0025817, 0.0025817, 0.0025817, 0.0025817][GVTBTC, GVTBTC, GVTBTC, GVTBTC] 
+[06:26:47 Thread-24  ]QLCBTC seeing downticks.. 
+[06:26:47 Thread-24  ]QLCBTC is in downtrend.. 
+[06:26:47 Thread-27  ]ICXBTC seeing downticks.. 
+[06:26:47 Thread-27  ]ICXBTC is in downtrend.. 
+[06:26:47 Thread-4  ]STORMBTC seeing downticks.. 
+[06:26:47 Thread-36  ]STEEMBTC is in Uptrend [3.657E-4, 3.657E-4, 3.657E-4, 3.657E-4][STEEMBTC, STEEMBTC, STEEMBTC, STEEMBTC] 
+[06:26:47 Thread-4  ]STORMBTC is in downtrend.. 
+[06:26:47 Thread-35  ]LINKBTC is in Uptrend [5.658E-5, 5.658E-5, 5.658E-5, 5.658E-5][LINKBTC, LINKBTC, LINKBTC, LINKBTC] 
+[06:26:47 Thread-64  ]MDABTC is in Uptrend [1.3187E-4, 1.3187E-4, 1.3187E-4, 1.3187E-4][MDABTC, MDABTC, MDABTC, MDABTC] 
+[06:26:47 Thread-45  ]NANOBTC is in Uptrend [8.31E-4, 8.31E-4, 8.31E-4, 8.31E-4][NANOBTC, NANOBTC, NANOBTC, NANOBTC] 
+[06:26:47 Thread-53  ]LTCBTC seeing downticks.. 
+[06:26:47 Thread-47  ]ELFBTC seeing downticks.. 
+[06:26:47 Thread-53  ]LTCBTC is in downtrend.. 
+[06:26:47 Thread-50  ]TRIGBTC seeing downticks.. 
+[06:26:47 Thread-50  ]TRIGBTC is in downtrend.. 
+[06:26:47 Thread-73  ]ZECBTC is in Uptrend [0.031301, 0.031301, 0.031301, 0.031337][ZECBTC, ZECBTC, ZECBTC, ZECBTC] 
+[06:26:47 Thread-34  ]BCPTBTC seeing downticks.. 
+[06:26:47 Thread-47  ]ELFBTC is in downtrend.. 
+[06:26:47 Thread-34  ]BCPTBTC is in downtrend.. 
+[06:26:47 Thread-56  ]SUBBTC seeing downticks.. 
+[06:26:47 Thread-56  ]SUBBTC is in downtrend.. 
+[06:26:47 Thread-42  ]POEBTC is in Uptrend [5.63E-6, 5.63E-6, 5.63E-6, 5.63E-6][POEBTC, POEBTC, POEBTC, POEBTC] 
+[06:26:47 Thread-51  ]PPTBTC is in Uptrend [0.0029118, 0.0029118, 0.0029118, 0.0029118][PPTBTC, PPTBTC, PPTBTC, PPTBTC] 
+[06:26:47 Thread-63  ]ONTBTC seeing downticks.. 
+[06:26:47 Thread-54  ]WAVESBTC is in Uptrend [6.139E-4, 6.139E-4, 6.139E-4, 6.14E-4][WAVESBTC, WAVESBTC, WAVESBTC, WAVESBTC] 
+[06:26:47 Thread-55  ]NCASHBTC is in Uptrend [4.66E-6, 4.66E-6, 4.66E-6, 4.66E-6][NCASHBTC, NCASHBTC, NCASHBTC, NCASHBTC] 
+[06:26:47 Thread-62  ]ENGBTC seeing downticks.. 
+[06:26:47 Thread-48  ]AMBBTC seeing downticks.. 
+[06:26:47 Thread-58  ]EOSBTC seeing downticks.. 
+[06:26:47 Thread-71  ]XVGBTC is in Uptrend [8.83E-6, 8.84E-6, 8.84E-6, 8.84E-6][XVGBTC, XVGBTC, XVGBTC, XVGBTC] 
+[06:26:47 Thread-66  ]MCOBTC is in Uptrend [0.001599, 0.001599, 0.001599, 0.001599][MCOBTC, MCOBTC, MCOBTC, MCOBTC] 
+[06:26:47 Thread-74  ]HSRBTC is in Uptrend [9.03E-4, 9.03E-4, 9.03E-4, 9.03E-4][HSRBTC, HSRBTC, HSRBTC, HSRBTC] 
+[06:26:47 Thread-68  ]BQXBTC seeing downticks.. 
+[06:26:47 Thread-57  ]GTOBTC is in Uptrend [3.5E-5, 3.5E-5, 3.5E-5, 3.5E-5][GTOBTC, GTOBTC, GTOBTC, GTOBTC] 
+[06:26:47 Thread-52  ]IOSTBTC is in Uptrend [4.8E-6, 4.79E-6, 4.8E-6, 4.8E-6][IOSTBTC, IOSTBTC, IOSTBTC, IOSTBTC] 
+[06:26:47 Thread-39  ]MTLBTC is in Uptrend [5.211E-4, 5.212E-4, 5.215E-4, 5.215E-4][MTLBTC, MTLBTC, MTLBTC, MTLBTC] 
+[06:26:47 Thread-44  ]EDOBTC is in Uptrend [2.42E-4, 2.426E-4, 2.427E-4, 2.427E-4][EDOBTC, EDOBTC, EDOBTC, EDOBTC] 
+[06:26:47 Thread-70  ]TRXBTC is in Uptrend [5.94E-6, 5.95E-6, 5.95E-6, 5.95E-6][TRXBTC, TRXBTC, TRXBTC, TRXBTC] 
+[06:26:47 Thread-41  ]GRSBTC is in Uptrend [1.7486E-4, 1.7486E-4, 1.7486E-4, 1.7486E-4][GRSBTC, GRSBTC, GRSBTC, GRSBTC] 
+[06:26:47 Thread-46  ]XEMBTC is in Uptrend [4.634E-5, 4.634E-5, 4.634E-5, 4.635E-5][XEMBTC, XEMBTC, XEMBTC, XEMBTC] 
+[06:26:47 Thread-43  ]XLMBTC seeing downticks.. 
+[06:26:47 Thread-40  ]SALTBTC seeing downticks.. 
+[06:26:47 Thread-68  ]BQXBTC is in downtrend.. 
+[06:26:47 Thread-58  ]EOSBTC is in downtrend.. 
+[06:26:47 Thread-48  ]AMBBTC is in downtrend.. 
+[06:26:47 Thread-62  ]ENGBTC is in downtrend.. 
+[06:26:47 Thread-63  ]ONTBTC is in downtrend.. 
+[06:26:47 Thread-40  ]SALTBTC is in downtrend.. 
+[06:26:47 Thread-43  ]XLMBTC is in downtrend.. 
+[06:26:47 Thread-61  ]XRPBTC is in Uptrend [1.0224E-4, 1.0223E-4, 1.0224E-4, 1.0224E-4][XRPBTC, XRPBTC, XRPBTC, XRPBTC] 
+[06:26:47 Thread-38  ]QTUMBTC seeing downticks.. 
+[06:26:47 Thread-38  ]QTUMBTC is in downtrend.. 
+[06:26:47 Thread-8  ]MTHBTC is in Uptrend [1.305E-5, 1.305E-5, 1.305E-5, 1.305E-5][MTHBTC, MTHBTC, MTHBTC, MTHBTC] 
+[06:27:47 Thread-6  ]OSTBTC seeing downticks.. 
+[06:27:47 Thread-6  ]OSTBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-21  ]BCCBTC is in Uptrend [0.11786, 0.11786, 0.11786, 0.11786][BCCBTC, BCCBTC, BCCBTC, BCCBTC] 
+[06:27:48 Thread-3  ]POABTC is in Uptrend [6.848E-5, 6.848E-5, 6.848E-5, 6.848E-5][POABTC, POABTC, POABTC, POABTC] 
+[06:27:48 Thread-22  ]ETCBTC seeing downticks.. 
+[06:27:48 Thread-22  ]ETCBTC is in downtrend.. 
+[06:27:48 Thread-5  ]VIBBTC seeing downticks.. 
+[06:27:48 Thread-5  ]VIBBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-12  ]BRDBTC seeing downticks.. 
+[06:27:48 Thread-9  ]XMRBTC is in Uptrend [0.029574, 0.029522, 0.029574, 0.029574][XMRBTC, XMRBTC, XMRBTC, XMRBTC] 
+[06:27:48 Thread-12  ]BRDBTC is in downtrend.. 
+[06:27:48 Thread-28  ]WPRBTC seeing downticks.. 
+[06:27:48 Thread-27  ]ICXBTC seeing downticks.. 
+[06:27:48 Thread-2  ]DASHBTC seeing downticks.. 
+[06:27:48 Thread-28  ]WPRBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-27  ]ICXBTC is in downtrend.. 
+[06:27:48 Thread-2  ]DASHBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-19  ]LENDBTC is in Uptrend [8.03E-6, 8.03E-6, 8.03E-6, 8.03E-6][LENDBTC, LENDBTC, LENDBTC, LENDBTC] 
+[06:27:48 Thread-14  ]DGDBTC seeing downticks.. 
+[06:27:48 Thread-15  ]NEOBTC seeing downticks.. 
+[06:27:48 Thread-18  ]RCNBTC is in Uptrend [1.646E-5, 1.651E-5, 1.652E-5, 1.652E-5][RCNBTC, RCNBTC, RCNBTC, RCNBTC] 
+[06:27:48 Thread-23  ]BTGBTC is in Uptrend [0.007198, 0.007193, 0.007199, 0.007199][BTGBTC, BTGBTC, BTGBTC, BTGBTC] 
+[06:27:48 Thread-10  ]WTCBTC seeing downticks.. 
+[06:27:48 Thread-67  ]GVTBTC seeing downticks.. 
+[06:27:48 Thread-10  ]WTCBTC is in downtrend.. 
+[06:27:48 Thread-67  ]GVTBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-15  ]NEOBTC is in downtrend.. 
+[06:27:48 Thread-29  ]DLTBTC seeing downticks.. 
+[06:27:48 Thread-14  ]DGDBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-4  ]STORMBTC is in Uptrend [5.02E-6, 5.02E-6, 5.02E-6, 5.02E-6][STORMBTC, STORMBTC, STORMBTC, STORMBTC] 
+[06:27:48 Thread-1  ]NEBLBTC seeing downticks.. 
+[06:27:48 Thread-7  ]ZILBTC is in Uptrend [8.47E-6, 8.48E-6, 8.48E-6, 8.48E-6][ZILBTC, ZILBTC, ZILBTC, ZILBTC] 
+[06:27:48 Thread-1  ]NEBLBTC is in downtrend.. 
+[06:27:48 Thread-31  ]CLOAKBTC is in Uptrend [0.0017824, 0.0017824, 0.0017824, 0.0017824][CLOAKBTC, CLOAKBTC, CLOAKBTC, CLOAKBTC] 
+[06:27:48 Thread-25  ]ENJBTC is in Uptrend [1.6E-5, 1.6E-5, 1.6E-5, 1.6E-5][ENJBTC, ENJBTC, ENJBTC, ENJBTC] 
+[06:27:48 Thread-29  ]DLTBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-16  ]AIONBTC is in Uptrend [3.821E-4, 3.821E-4, 3.821E-4, 3.823E-4][AIONBTC, AIONBTC, AIONBTC, AIONBTC] 
+[06:27:48 Thread-32  ]POWRBTC is in Uptrend [5.843E-5, 5.843E-5, 5.843E-5, 5.843E-5][POWRBTC, POWRBTC, POWRBTC, POWRBTC] 
+[06:27:48 Thread-65  ]OMGBTC is in Uptrend [0.001876, 0.001876, 0.001876, 0.001876][OMGBTC, OMGBTC, OMGBTC, OMGBTC] 
+[06:27:48 Thread-60  ]SNTBTC is in Uptrend [1.693E-5, 1.693E-5, 1.693E-5, 1.693E-5][SNTBTC, SNTBTC, SNTBTC, SNTBTC] 
+[06:27:48 Thread-11  ]CMTBTC is in Uptrend [1.635E-5, 1.635E-5, 1.636E-5, 1.637E-5][CMTBTC, CMTBTC, CMTBTC, CMTBTC] 
+[06:27:48 Thread-17  ]NULSBTC is in Uptrend [3.1216E-4, 3.1216E-4, 3.1216E-4, 3.1216E-4][NULSBTC, NULSBTC, NULSBTC, NULSBTC] 
+[06:27:48 Thread-69  ]VENBTC is in Uptrend [4.51E-4, 4.51E-4, 4.51E-4, 4.5115E-4][VENBTC, VENBTC, VENBTC, VENBTC] 
+[06:27:48 Thread-72  ]BNBBTC is in Uptrend [0.0014629, 0.0014629, 0.0014629, 0.0014629][BNBBTC, BNBBTC, BNBBTC, BNBBTC] 
+[06:27:48 Thread-26  ]ZRXBTC is in Uptrend [1.1062E-4, 1.1076E-4, 1.1076E-4, 1.1076E-4][ZRXBTC, ZRXBTC, ZRXBTC, ZRXBTC] 
+[06:27:48 Thread-49  ]LSKBTC seeing downticks.. 
+[06:27:48 Thread-30  ]STRATBTC is in Uptrend [6.74E-4, 6.742E-4, 6.774E-4, 6.774E-4][STRATBTC, STRATBTC, STRATBTC, STRATBTC] 
+[06:27:48 Thread-49  ]LSKBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-13  ]ETHBTC seeing downticks.. 
+[06:27:48 Thread-36  ]STEEMBTC is in Uptrend [3.657E-4, 3.657E-4, 3.657E-4, 3.657E-4][STEEMBTC, STEEMBTC, STEEMBTC, STEEMBTC] 
+[06:27:48 Thread-13  ]ETHBTC is in downtrend.. 
+[06:27:48 Thread-24  ]QLCBTC seeing downticks.. 
+[06:27:48 Thread-24  ]QLCBTC is in downtrend.. 
+[06:27:48 Thread-33  ]ADABTC seeing downticks.. 
+[06:27:48 Thread-33  ]ADABTC is in downtrend.. 
+[06:27:48 Thread-20  ]WANBTC is in Uptrend [7.426E-4, 7.426E-4, 7.426E-4, 7.426E-4][WANBTC, WANBTC, WANBTC, WANBTC] 
+[06:27:48 Thread-59  ]IOTABTC seeing downticks.. 
+[06:27:48 Thread-37  ]BLZBTC is in Uptrend [6.658E-5, 6.66E-5, 6.66E-5, 6.664E-5][BLZBTC, BLZBTC, BLZBTC, BLZBTC] 
+[06:27:48 Thread-59  ]IOTABTC is in downtrend.. 
+[06:27:48 Thread-63  ]ONTBTC seeing downticks.. 
+[06:27:48 Thread-51  ]PPTBTC is in Uptrend [0.0029118, 0.0029118, 0.0029118, 0.0029118][PPTBTC, PPTBTC, PPTBTC, PPTBTC] 
+[06:27:48 Thread-62  ]ENGBTC seeing downticks.. 
+[06:27:48 Thread-63  ]ONTBTC is in downtrend.. 
+[06:27:48 Thread-52  ]IOSTBTC is in Uptrend [4.8E-6, 4.8E-6, 4.8E-6, 4.8E-6][IOSTBTC, IOSTBTC, IOSTBTC, IOSTBTC] 
+[06:27:48 Thread-34  ]BCPTBTC seeing downticks.. 
+[06:27:48 Thread-73  ]ZECBTC is in Uptrend [0.031337, 0.031339, 0.031339, 0.031462][ZECBTC, ZECBTC, ZECBTC, ZECBTC] 
+[06:27:48 Thread-48  ]AMBBTC seeing downticks.. 
+[06:27:48 Thread-47  ]ELFBTC seeing downticks.. 
+[06:27:48 Thread-41  ]GRSBTC seeing downticks.. 
+[06:27:48 Thread-54  ]WAVESBTC seeing downticks.. 
+[06:27:48 Thread-62  ]ENGBTC is in downtrend.. 
+[06:27:48 Thread-34  ]BCPTBTC is in downtrend.. 
+[06:27:48 Thread-54  ]WAVESBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-57  ]GTOBTC is in Uptrend [3.5E-5, 3.5E-5, 3.5E-5, 3.5E-5][GTOBTC, GTOBTC, GTOBTC, GTOBTC] 
+[06:27:48 Thread-71  ]XVGBTC seeing downticks.. 
+[06:27:48 Thread-71  ]XVGBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-39  ]MTLBTC is in Uptrend [5.215E-4, 5.215E-4, 5.215E-4, 5.215E-4][MTLBTC, MTLBTC, MTLBTC, MTLBTC] 
+[06:27:48 Thread-40  ]SALTBTC seeing downticks.. 
+[06:27:48 Thread-74  ]HSRBTC is in Uptrend [9.03E-4, 9.03E-4, 9.03E-4, 9.03E-4][HSRBTC, HSRBTC, HSRBTC, HSRBTC] 
+[06:27:48 Thread-40  ]SALTBTC is in downtrend.. 
+[06:27:48 Thread-43  ]XLMBTC seeing downticks.. 
+[06:27:48 Thread-43  ]XLMBTC is in downtrend.. 
+[06:27:48 Thread-56  ]SUBBTC seeing downticks.. 
+[06:27:48 Thread-56  ]SUBBTC is in downtrend.. 
+[06:27:48 Thread-41  ]GRSBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-47  ]ELFBTC is in downtrend.. 
+[06:27:48 Thread-48  ]AMBBTC is in downtrend.. 
+[06:27:48 Thread-70  ]TRXBTC is in Uptrend [5.95E-6, 5.96E-6, 5.96E-6, 5.96E-6][TRXBTC, TRXBTC, TRXBTC, TRXBTC] 
+[06:27:48 Thread-50  ]TRIGBTC is in Uptrend [1.689E-4, 1.689E-4, 1.689E-4, 1.689E-4][TRIGBTC, TRIGBTC, TRIGBTC, TRIGBTC] 
+[06:27:48 Thread-42  ]POEBTC is in Uptrend [5.63E-6, 5.63E-6, 5.63E-6, 5.64E-6][POEBTC, POEBTC, POEBTC, POEBTC] 
+[06:27:48 Thread-35  ]LINKBTC is in Uptrend [5.658E-5, 5.658E-5, 5.658E-5, 5.658E-5][LINKBTC, LINKBTC, LINKBTC, LINKBTC] 
+[06:27:48 Thread-68  ]BQXBTC is in Uptrend [3.64E-4, 3.64E-4, 3.64E-4, 3.64E-4][BQXBTC, BQXBTC, BQXBTC, BQXBTC] 
+[06:27:48 Thread-66  ]MCOBTC seeing downticks.. 
+[06:27:48 Thread-45  ]NANOBTC is in Uptrend [8.31E-4, 8.32E-4, 8.32E-4, 8.32E-4][NANOBTC, NANOBTC, NANOBTC, NANOBTC] 
+[06:27:48 Thread-66  ]MCOBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-46  ]XEMBTC is in Uptrend [4.635E-5, 4.642E-5, 4.644E-5, 4.644E-5][XEMBTC, XEMBTC, XEMBTC, XEMBTC] 
+[06:27:48 Thread-64  ]MDABTC is in Uptrend [1.3187E-4, 1.3187E-4, 1.3187E-4, 1.3187E-4][MDABTC, MDABTC, MDABTC, MDABTC] 
+[06:27:48 Thread-44  ]EDOBTC seeing downticks.. 
+[06:27:48 Thread-58  ]EOSBTC is in Uptrend [0.0011816, 0.0011816, 0.0011816, 0.0011823][EOSBTC, EOSBTC, EOSBTC, EOSBTC] 
+[06:27:48 Thread-53  ]LTCBTC seeing downticks.. 
+[06:27:48 Thread-53  ]LTCBTC is in downtrend.. 
+[06:27:48 Thread-44  ]EDOBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-55  ]NCASHBTC seeing downticks.. 
+[06:27:48 Thread-55  ]NCASHBTC was in uptrend but seeing downticks.. 
+[06:27:48 Thread-61  ]XRPBTC is in Uptrend [1.022E-4, 1.022E-4, 1.022E-4, 1.0221E-4][XRPBTC, XRPBTC, XRPBTC, XRPBTC] 
+[06:27:49 Thread-38  ]QTUMBTC is in Uptrend [0.002233, 0.002233, 0.002233, 0.002233][QTUMBTC, QTUMBTC, QTUMBTC, QTUMBTC] 
+[06:27:49 Thread-8  ]MTHBTC is in Uptrend [1.305E-5, 1.306E-5, 1.306E-5, 1.306E-5][MTHBTC, MTHBTC, MTHBTC, MTHBTC] 
+[06:28:49 Thread-6  ]OSTBTC is in Uptrend [2.809E-5, 2.809E-5, 2.809E-5, 2.809E-5][OSTBTC, OSTBTC, OSTBTC, OSTBTC] 
+[06:28:49 Thread-5  ]VIBBTC is in Uptrend [2.226E-5, 2.226E-5, 2.226E-5, 2.226E-5][VIBBTC, VIBBTC, VIBBTC, VIBBTC] 
+[06:28:49 Thread-21  ]BCCBTC seeing downticks.. 
+[06:28:49 Thread-21  ]BCCBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-22  ]ETCBTC is in Uptrend [0.002212, 0.002212, 0.002213, 0.002213][ETCBTC, ETCBTC, ETCBTC, ETCBTC] 
+[06:28:49 Thread-3  ]POABTC is in Uptrend [6.848E-5, 6.848E-5, 6.856E-5, 6.856E-5][POABTC, POABTC, POABTC, POABTC] 
+[06:28:49 Thread-2  ]DASHBTC seeing downticks.. 
+[06:28:49 Thread-2  ]DASHBTC is in downtrend.. 
+[06:28:49 Thread-25  ]ENJBTC seeing downticks.. 
+[06:28:49 Thread-15  ]NEOBTC seeing downticks.. 
+[06:28:49 Thread-25  ]ENJBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-72  ]BNBBTC seeing downticks.. 
+[06:28:49 Thread-15  ]NEOBTC is in downtrend.. 
+[06:28:49 Thread-72  ]BNBBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-69  ]VENBTC is in Uptrend [4.5113E-4, 4.5115E-4, 4.5115E-4, 4.5115E-4][VENBTC, VENBTC, VENBTC, VENBTC] 
+[06:28:49 Thread-11  ]CMTBTC is in Uptrend [1.637E-5, 1.638E-5, 1.638E-5, 1.638E-5][CMTBTC, CMTBTC, CMTBTC, CMTBTC] 
+[06:28:49 Thread-67  ]GVTBTC seeing downticks.. 
+[06:28:49 Thread-67  ]GVTBTC is in downtrend.. 
+[06:28:49 Thread-18  ]RCNBTC seeing downticks.. 
+[06:28:49 Thread-18  ]RCNBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-65  ]OMGBTC seeing downticks.. 
+[06:28:49 Thread-32  ]POWRBTC seeing downticks.. 
+[06:28:49 Thread-65  ]OMGBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-31  ]CLOAKBTC is in Uptrend [0.0017824, 0.0017824, 0.0017824, 0.0017824][CLOAKBTC, CLOAKBTC, CLOAKBTC, CLOAKBTC] 
+[06:28:49 Thread-32  ]POWRBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-7  ]ZILBTC is in Uptrend [8.48E-6, 8.48E-6, 8.48E-6, 8.48E-6][ZILBTC, ZILBTC, ZILBTC, ZILBTC] 
+[06:28:49 Thread-28  ]WPRBTC is in Uptrend [1.648E-5, 1.648E-5, 1.648E-5, 1.648E-5][WPRBTC, WPRBTC, WPRBTC, WPRBTC] 
+[06:28:49 Thread-29  ]DLTBTC is in Uptrend [2.956E-5, 2.956E-5, 2.956E-5, 2.956E-5][DLTBTC, DLTBTC, DLTBTC, DLTBTC] 
+[06:28:49 Thread-19  ]LENDBTC seeing downticks.. 
+[06:28:49 Thread-60  ]SNTBTC is in Uptrend [1.693E-5, 1.693E-5, 1.693E-5, 1.693E-5][SNTBTC, SNTBTC, SNTBTC, SNTBTC] 
+[06:28:49 Thread-19  ]LENDBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-10  ]WTCBTC seeing downticks.. 
+[06:28:49 Thread-10  ]WTCBTC is in downtrend.. 
+[06:28:49 Thread-20  ]WANBTC seeing downticks.. 
+[06:28:49 Thread-20  ]WANBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-17  ]NULSBTC is in Uptrend [3.1216E-4, 3.1216E-4, 3.1216E-4, 3.1216E-4][NULSBTC, NULSBTC, NULSBTC, NULSBTC] 
+[06:28:49 Thread-59  ]IOTABTC seeing downticks.. 
+[06:28:49 Thread-33  ]ADABTC seeing downticks.. 
+[06:28:49 Thread-74  ]HSRBTC is in Uptrend [9.03E-4, 9.03E-4, 9.03E-4, 9.03E-4][HSRBTC, HSRBTC, HSRBTC, HSRBTC] 
+[06:28:49 Thread-33  ]ADABTC is in downtrend.. 
+[06:28:49 Thread-59  ]IOTABTC is in downtrend.. 
+[06:28:49 Thread-12  ]BRDBTC is in Uptrend [7.843E-5, 7.843E-5, 7.843E-5, 7.843E-5][BRDBTC, BRDBTC, BRDBTC, BRDBTC] 
+[06:28:49 Thread-13  ]ETHBTC seeing downticks.. 
+[06:28:49 Thread-26  ]ZRXBTC seeing downticks.. 
+[06:28:49 Thread-23  ]BTGBTC seeing downticks.. 
+[06:28:49 Thread-13  ]ETHBTC is in downtrend.. 
+[06:28:49 Thread-9  ]XMRBTC seeing downticks.. 
+[06:28:49 Thread-23  ]BTGBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-30  ]STRATBTC seeing downticks.. 
+[06:28:49 Thread-27  ]ICXBTC is in Uptrend [3.947E-4, 3.947E-4, 3.947E-4, 3.947E-4][ICXBTC, ICXBTC, ICXBTC, ICXBTC] 
+[06:28:49 Thread-26  ]ZRXBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-73  ]ZECBTC seeing downticks.. 
+[06:28:49 Thread-37  ]BLZBTC is in Uptrend [6.667E-5, 6.669E-5, 6.676E-5, 6.68E-5][BLZBTC, BLZBTC, BLZBTC, BLZBTC] 
+[06:28:49 Thread-16  ]AIONBTC seeing downticks.. 
+[06:28:49 Thread-9  ]XMRBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-1  ]NEBLBTC seeing downticks.. 
+[06:28:49 Thread-1  ]NEBLBTC is in downtrend.. 
+[06:28:49 Thread-30  ]STRATBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-24  ]QLCBTC is in Uptrend [2.129E-5, 2.129E-5, 2.129E-5, 2.129E-5][QLCBTC, QLCBTC, QLCBTC, QLCBTC] 
+[06:28:49 Thread-16  ]AIONBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-40  ]SALTBTC seeing downticks.. 
+[06:28:49 Thread-43  ]XLMBTC seeing downticks.. 
+[06:28:49 Thread-43  ]XLMBTC is in downtrend.. 
+[06:28:49 Thread-73  ]ZECBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-40  ]SALTBTC is in downtrend.. 
+[06:28:49 Thread-4  ]STORMBTC is in Uptrend [5.02E-6, 5.02E-6, 5.02E-6, 5.03E-6][STORMBTC, STORMBTC, STORMBTC, STORMBTC] 
+[06:28:49 Thread-14  ]DGDBTC seeing downticks.. 
+[06:28:49 Thread-34  ]BCPTBTC is in Uptrend [6.374E-5, 6.372E-5, 6.374E-5, 6.374E-5][BCPTBTC, BCPTBTC, BCPTBTC, BCPTBTC] 
+[06:28:49 Thread-14  ]DGDBTC is in downtrend.. 
+[06:28:49 Thread-66  ]MCOBTC is in Uptrend [0.001598, 0.001599, 0.001599, 0.001599][MCOBTC, MCOBTC, MCOBTC, MCOBTC] 
+[06:28:49 Thread-55  ]NCASHBTC is in Uptrend [4.65E-6, 4.65E-6, 4.65E-6, 4.65E-6][NCASHBTC, NCASHBTC, NCASHBTC, NCASHBTC] 
+[06:28:49 Thread-57  ]GTOBTC is in Uptrend [3.5E-5, 3.5E-5, 3.5E-5, 3.5E-5][GTOBTC, GTOBTC, GTOBTC, GTOBTC] 
+[06:28:49 Thread-71  ]XVGBTC seeing downticks.. 
+[06:28:49 Thread-48  ]AMBBTC seeing downticks.. 
+[06:28:49 Thread-48  ]AMBBTC is in downtrend.. 
+[06:28:49 Thread-71  ]XVGBTC is in downtrend.. 
+[06:28:49 Thread-39  ]MTLBTC seeing downticks.. 
+[06:28:49 Thread-63  ]ONTBTC seeing downticks.. 
+[06:28:49 Thread-62  ]ENGBTC is in Uptrend [2.7717E-4, 2.7717E-4, 2.7717E-4, 2.7782E-4][ENGBTC, ENGBTC, ENGBTC, ENGBTC] 
+[06:28:49 Thread-63  ]ONTBTC is in downtrend.. 
+[06:28:49 Thread-39  ]MTLBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-53  ]LTCBTC seeing downticks.. 
+[06:28:49 Thread-53  ]LTCBTC is in downtrend.. 
+[06:28:49 Thread-54  ]WAVESBTC is in Uptrend [6.14E-4, 6.141E-4, 6.141E-4, 6.141E-4][WAVESBTC, WAVESBTC, WAVESBTC, WAVESBTC] 
+[06:28:49 Thread-51  ]PPTBTC seeing downticks.. 
+[06:28:49 Thread-51  ]PPTBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-41  ]GRSBTC is in Uptrend [1.7479E-4, 1.7479E-4, 1.7479E-4, 1.7479E-4][GRSBTC, GRSBTC, GRSBTC, GRSBTC] 
+[06:28:49 Thread-36  ]STEEMBTC seeing downticks.. 
+[06:28:49 Thread-49  ]LSKBTC is in Uptrend [0.001397, 0.0013992, 0.0013992, 0.0013992][LSKBTC, LSKBTC, LSKBTC, LSKBTC] 
+[06:28:49 Thread-44  ]EDOBTC seeing downticks.. 
+[06:28:49 Thread-44  ]EDOBTC is in downtrend.. 
+[06:28:49 Thread-36  ]STEEMBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-35  ]LINKBTC is in Uptrend [5.658E-5, 5.658E-5, 5.658E-5, 5.658E-5][LINKBTC, LINKBTC, LINKBTC, LINKBTC] 
+[06:28:49 Thread-47  ]ELFBTC is in Uptrend [1.346E-4, 1.346E-4, 1.346E-4, 1.346E-4][ELFBTC, ELFBTC, ELFBTC, ELFBTC] 
+[06:28:49 Thread-61  ]XRPBTC seeing downticks.. 
+[06:28:49 Thread-61  ]XRPBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-46  ]XEMBTC seeing downticks.. 
+[06:28:49 Thread-64  ]MDABTC is in Uptrend [1.3284E-4, 1.3284E-4, 1.3284E-4, 1.3284E-4][MDABTC, MDABTC, MDABTC, MDABTC] 
+[06:28:49 Thread-46  ]XEMBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-70  ]TRXBTC seeing downticks.. 
+[06:28:49 Thread-58  ]EOSBTC seeing downticks.. 
+[06:28:49 Thread-56  ]SUBBTC is in Uptrend [8.431E-5, 8.432E-5, 8.432E-5, 8.432E-5][SUBBTC, SUBBTC, SUBBTC, SUBBTC] 
+[06:28:49 Thread-70  ]TRXBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-58  ]EOSBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-52  ]IOSTBTC is in Uptrend [4.8E-6, 4.8E-6, 4.8E-6, 4.8E-6][IOSTBTC, IOSTBTC, IOSTBTC, IOSTBTC] 
+[06:28:49 Thread-42  ]POEBTC seeing downticks.. 
+[06:28:49 Thread-45  ]NANOBTC is in Uptrend [8.318E-4, 8.32E-4, 8.323E-4, 8.323E-4][NANOBTC, NANOBTC, NANOBTC, NANOBTC] 
+[06:28:49 Thread-50  ]TRIGBTC is in Uptrend [1.689E-4, 1.691E-4, 1.695E-4, 1.695E-4][TRIGBTC, TRIGBTC, TRIGBTC, TRIGBTC] 
+[06:28:49 Thread-42  ]POEBTC was in uptrend but seeing downticks.. 
+[06:28:49 Thread-68  ]BQXBTC is in Uptrend [3.6359E-4, 3.6359E-4, 3.6359E-4, 3.6359E-4][BQXBTC, BQXBTC, BQXBTC, BQXBTC] 
+[06:28:50 Thread-38  ]QTUMBTC is in Uptrend [0.002231, 0.002231, 0.002231, 0.002231][QTUMBTC, QTUMBTC, QTUMBTC, QTUMBTC] 
+[06:28:50 Thread-8  ]MTHBTC is in Uptrend [1.306E-5, 1.306E-5, 1.306E-5, 1.306E-5][MTHBTC, MTHBTC, MTHBTC, MTHBTC] 
+[06:30:43 Thread-12  ]BRDBTC seeing downticks.. 
+[06:30:43 Thread-54  ]WAVESBTC is in Uptrend [6.141E-4, 6.141E-4, 6.142E-4, 6.142E-4][WAVESBTC, WAVESBTC, WAVESBTC, WAVESBTC] 
+[06:30:43 Thread-12  ]BRDBTC was in uptrend but seeing downticks.. 
+[06:30:43 Thread-2  ]DASHBTC seeing downticks.. 
+[06:30:43 Thread-2  ]DASHBTC is in downtrend.. 
+[06:30:43 Thread-47  ]ELFBTC seeing downticks.. 
+[06:30:43 Thread-47  ]ELFBTC was in uptrend but seeing downticks.. 
+[06:30:43 Thread-15  ]NEOBTC seeing downticks.. 
+[06:30:43 Thread-15  ]NEOBTC is in downtrend.. 
+[06:30:43 Thread-32  ]POWRBTC seeing downticks.. 
+[06:30:43 Thread-32  ]POWRBTC is in downtrend.. 
+[06:30:44 Thread-39  ]MTLBTC seeing downticks.. 
+[06:30:44 Thread-39  ]MTLBTC is in downtrend.. 
+[06:30:44 Thread-34  ]BCPTBTC seeing downticks.. 
+[06:30:44 Thread-42  ]POEBTC seeing downticks.. 
+[06:30:44 Thread-34  ]BCPTBTC was in uptrend but seeing downticks.. 
+[06:30:44 Thread-42  ]POEBTC is in downtrend.. 
+[06:30:44 Thread-53  ]LTCBTC seeing downticks.. 
+[06:30:44 Thread-53  ]LTCBTC is in downtrend.. 
+[06:30:44 Thread-24  ]QLCBTC is in Uptrend [2.129E-5, 2.129E-5, 2.129E-5, 2.129E-5][QLCBTC, QLCBTC, QLCBTC, QLCBTC] 
+[06:30:44 Thread-35  ]LINKBTC seeing downticks.. 
+[06:30:44 Thread-60  ]SNTBTC is in Uptrend [1.694E-5, 1.694E-5, 1.694E-5, 1.694E-5][SNTBTC, SNTBTC, SNTBTC, SNTBTC] 
+[06:30:44 Thread-35  ]LINKBTC was in uptrend but seeing downticks.. 
+[06:30:44 Thread-60  ]SNTBTC can now be bought.. 
+[06:30:44 Thread-30  ]STRATBTC seeing downticks.. 
+[06:30:44 Thread-30  ]STRATBTC is in downtrend.. 
+[06:30:44 Thread-52  ]IOSTBTC is in Uptrend [4.8E-6, 4.8E-6, 4.8E-6, 4.8E-6][IOSTBTC, IOSTBTC, IOSTBTC, IOSTBTC] 
+[06:30:44 Thread-52  ]IOSTBTC can now be bought.. 
+[06:30:44 Thread-21  ]BCCBTC seeing downticks.. 
+[06:30:44 Thread-21  ]BCCBTC is in downtrend.. 
+[06:30:44 Thread-19  ]LENDBTC seeing downticks.. 
+[06:30:44 Thread-19  ]LENDBTC is in downtrend.. 
+[06:30:45 Thread-23  ]BTGBTC seeing downticks.. 
+[06:30:45 Thread-59  ]IOTABTC seeing downticks.. 
+[06:30:45 Thread-59  ]IOTABTC is in downtrend.. 
+[06:30:45 Thread-23  ]BTGBTC is in downtrend.. 
+[06:30:45 Thread-14  ]DGDBTC is in Uptrend [0.030551, 0.030543, 0.030578, 0.030578][DGDBTC, DGDBTC, DGDBTC, DGDBTC] 
+[06:30:45 Thread-73  ]ZECBTC is in Uptrend [0.031309, 0.031354, 0.031354, 0.031354][ZECBTC, ZECBTC, ZECBTC, ZECBTC] 
+[06:30:45 Thread-38  ]QTUMBTC seeing downticks.. 
+[06:30:45 Thread-38  ]QTUMBTC was in uptrend but seeing downticks.. 
+[06:30:45 Thread-57  ]GTOBTC is in Uptrend [3.5E-5, 3.5E-5, 3.5E-5, 3.5E-5][GTOBTC, GTOBTC, GTOBTC, GTOBTC] 
+[06:30:45 Thread-57  ]GTOBTC can now be bought.. 
+[06:30:46 Thread-28  ]WPRBTC is in Uptrend [1.648E-5, 1.648E-5, 1.648E-5, 1.648E-5][WPRBTC, WPRBTC, WPRBTC, WPRBTC] 
+[06:30:46 Thread-64  ]MDABTC is in Uptrend [1.3286E-4, 1.3286E-4, 1.3286E-4, 1.3286E-4][MDABTC, MDABTC, MDABTC, MDABTC] 
+[06:30:46 Thread-64  ]MDABTC can now be bought.. 
+[06:30:46 Thread-4  ]STORMBTC seeing downticks.. 
+[06:30:46 Thread-4  ]STORMBTC was in uptrend but seeing downticks.. 
+[06:30:47 Thread-11  ]CMTBTC is in Uptrend [1.638E-5, 1.639E-5, 1.639E-5, 1.639E-5][CMTBTC, CMTBTC, CMTBTC, CMTBTC] 
+[06:30:47 Thread-26  ]ZRXBTC seeing downticks.. 
+[06:30:47 Thread-26  ]ZRXBTC is in downtrend.. 
+[06:30:47 Thread-46  ]XEMBTC is in Uptrend [4.642E-5, 4.644E-5, 4.644E-5, 4.644E-5][XEMBTC, XEMBTC, XEMBTC, XEMBTC] 
+[06:30:47 Thread-27  ]ICXBTC seeing downticks.. 
+[06:30:47 Thread-27  ]ICXBTC was in uptrend but seeing downticks.. 
+[06:30:47 Thread-7  ]ZILBTC seeing downticks.. 
+[06:30:47 Thread-7  ]ZILBTC was in uptrend but seeing downticks.. 
+[06:30:47 Thread-22  ]ETCBTC seeing downticks.. 
+[06:30:47 Thread-22  ]ETCBTC was in uptrend but seeing downticks.. 
+[06:30:47 Thread-58  ]EOSBTC seeing downticks.. 
+[06:30:47 Thread-58  ]EOSBTC is in downtrend.. 
+[06:30:48 Thread-20  ]WANBTC seeing downticks.. 
+[06:30:48 Thread-20  ]WANBTC is in downtrend.. 
+[06:30:48 Thread-10  ]WTCBTC seeing downticks.. 
+[06:30:48 Thread-43  ]XLMBTC seeing downticks.. 
+[06:30:48 Thread-43  ]XLMBTC is in downtrend.. 
+[06:30:48 Thread-10  ]WTCBTC is in downtrend.. 
+[06:30:49 Thread-62  ]ENGBTC seeing downticks.. 
+[06:30:49 Thread-62  ]ENGBTC was in uptrend but seeing downticks.. 
+[06:30:49 Thread-36  ]STEEMBTC is in Uptrend [3.652E-4, 3.652E-4, 3.652E-4, 3.652E-4][STEEMBTC, STEEMBTC, STEEMBTC, STEEMBTC] 
+[06:30:49 Thread-63  ]ONTBTC seeing downticks.. 
+[06:30:49 Thread-63  ]ONTBTC is in downtrend.. 
+[06:30:49 Thread-69  ]VENBTC seeing downticks.. 
+[06:30:49 Thread-69  ]VENBTC was in uptrend but seeing downticks.. 
+[06:30:49 Thread-33  ]ADABTC seeing downticks.. 
+[06:30:49 Thread-5  ]VIBBTC is in Uptrend [2.226E-5, 2.226E-5, 2.226E-5, 2.226E-5][VIBBTC, VIBBTC, VIBBTC, VIBBTC] 
+[06:30:49 Thread-33  ]ADABTC is in downtrend.. 
+[06:30:49 Thread-56  ]SUBBTC seeing downticks.. 
+[06:30:49 Thread-56  ]SUBBTC was in uptrend but seeing downticks.. 
+[06:30:49 Thread-16  ]AIONBTC seeing downticks.. 
+[06:30:49 Thread-16  ]AIONBTC is in downtrend.. 
+[06:30:50 Thread-74  ]HSRBTC seeing downticks.. 
+[06:30:50 Thread-74  ]HSRBTC was in uptrend but seeing downticks.. 
+[06:30:51 Thread-18  ]RCNBTC seeing downticks.. 
+[06:30:51 Thread-18  ]RCNBTC is in downtrend.. 
+[06:30:51 Thread-25  ]ENJBTC is in Uptrend [1.601E-5, 1.602E-5, 1.602E-5, 1.602E-5][ENJBTC, ENJBTC, ENJBTC, ENJBTC] 
+[06:30:51 Thread-70  ]TRXBTC is in Uptrend [5.95E-6, 5.95E-6, 5.95E-6, 5.95E-6][TRXBTC, TRXBTC, TRXBTC, TRXBTC] 
+[06:30:51 Thread-45  ]NANOBTC seeing downticks.. 
+[06:30:51 Thread-45  ]NANOBTC was in uptrend but seeing downticks.. 
+[06:30:52 Thread-13  ]ETHBTC seeing downticks.. 
+[06:30:52 Thread-13  ]ETHBTC is in downtrend.. 

@@ -6,7 +6,17 @@ import com.cnmpdemo.logging.CNMPDemoLogger;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
+
+import com.mongodb.DBCollection;
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.MongoIterable;
+import org.bson.Document;
 
 /**
  * Created by kiranya on 7/4/18.
@@ -36,6 +46,19 @@ public class CNMPDemo {
 
     public static CNMPDemoLogger cnmpLogger = new CNMPDemoLogger();
     public static Properties cnmpProperties = new Properties();
+    public static String BTC_NAME = "BTC";
+
+
+    // MongoDB connections..
+    public static String mongoDBConnString = "mongodb://35.200.24.49:27017";
+    public static MongoClient mongoClient = new MongoClient(new MongoClientURI(mongoDBConnString));
+    public static String mongoDBName = "trades";
+    public static MongoDatabase database;
+    public static MongoCollection<Document> dbCollection;
+    public static final String collectionName = "15sec-Aggregates";
+
+    // Initialise worker thread pool..
+    private static List<Thread> workerThreads = new ArrayList<>();
 
 
     /********************************************************************************************
@@ -71,93 +94,41 @@ public class CNMPDemo {
             throw new RuntimeException("Problems with creating the log files");
         }
 
+        try {
+
+            database = mongoClient.getDatabase(mongoDBName);
+            dbCollection = database.getCollection(collectionName);
+            MongoIterable <String> collections = database.listCollectionNames();
+            for (String coinName: collections) {
+                if (coinName.endsWith(BTC_NAME)) {
+                    CNMPDemoPatternChecker patternChecker = new CNMPDemoPatternChecker(coinName);
+                    CNMPDemo.cnmpLogger.logger.info(coinName + " - bootstrap..");
+                    Thread patternCheckerThread = new Thread(patternChecker);
+                    patternCheckerThread.start();
+                    workerThreads.add(patternCheckerThread);
+                }
+            }
+
+            for (Thread thread : workerThreads) {
+                thread.join();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            mongoClient.close();
+        }
+
+        /*********************************************************************************************
+         * 1 - For test purposes using Filestreaming......                                           *
+         ********************************************************************************************/
+        /*
         for(String coinName: args) {
             CNMPDemoPatternChecker patternChecker = new CNMPDemoPatternChecker(coinName,coinName+"_prices.txt");
             CNMPDemo.cnmpLogger.logger.info(coinName + " - bootstrap..");
             Thread patternCheckerThread = new Thread(patternChecker);
             patternCheckerThread.start();
         }
-    }
-
-    // Will be set by CalmnessChecker - Basically a Thread to indicate an entry price..
-    private boolean calm = false;
-    private double buyPrice;
-
-    // Coin Id/Name is a reference for the respective Price Stream
-    private String coinName;
-    private String priceStreamName;
-
-    // Used as Trend Indicator.. Set when the coin is in Uptrend and reset when the coin is in DownTrend..
-    private boolean isInUpTrend = false;
-
-    // To indicate if a coin is purchased and we're in trade..Set after purchasing and Reset after selling..
-    private boolean inTrade = false;
-
-
-    // Up and Down counters are only tracked when we're in action..i.e Action Lifecycle is from "Determining to Buy till Exit.."
-    private int downCounter;
-    private int upCounter;
-
-
-    // Will hold what ever the price was at the time of exit trigger..
-    private double exitPrice;
-
-    // Will be set by SellChecker - Basically a Thread to indicate an exit price..
-    private boolean sellIndicator = false;
-
-    // Yet to be used..
-    private double stopLossPrice;
-
-    /*
-    Getters and Setters from here on..
-     */
-
-    public boolean isSellIndicator() {
-        return sellIndicator;
-    }
-
-    public void setSellIndicator(boolean sellIndicator) {
-        this.sellIndicator = sellIndicator;
-    }
-
-    public double getBuyPrice() {
-        return buyPrice;
-    }
-
-    public void setBuyPrice(double buyPrice) {
-        this.buyPrice = buyPrice;
-    }
-
-    public String getCoinName() {
-        return coinName;
-    }
-
-    public void setCoinName(String coinName) {
-        this.coinName = coinName;
-    }
-
-    public double getExitPrice() {
-        return exitPrice;
-    }
-
-    public void setExitPrice(double exitPrice) {
-        this.exitPrice = exitPrice;
-    }
-
-    public boolean isCalm() {
-        return calm;
-    }
-
-    public void setCalm(boolean calm) {
-        this.calm = calm;
-    }
-
-    public double getStopLossPrice() {
-        return stopLossPrice;
-    }
-
-    public void setStopLossPrice(float stopLossPrice) {
-        this.stopLossPrice = stopLossPrice;
+        */
     }
 
 
@@ -167,54 +138,6 @@ public class CNMPDemo {
 
     public void setCnmpProperties(Properties cnmpProperties) {
         this.cnmpProperties = cnmpProperties;
-    }
-
-    public boolean isInUpTrend() {
-        return isInUpTrend;
-    }
-
-    public void setInUpTrend(boolean inUpTrend) {
-        isInUpTrend = inUpTrend;
-    }
-
-    public int getDownCounter() {
-        return downCounter;
-    }
-
-    public void setDownCounter(int downCounter) {
-        this.downCounter = downCounter;
-    }
-
-    public int getUpCounter() {
-        return upCounter;
-    }
-
-    public void setUpCounter(int upCounter) {
-        this.upCounter = upCounter;
-    }
-
-    public static CNMPDemoLogger getCnmpLogger() {
-        return cnmpLogger;
-    }
-
-    public static void setCnmpLogger(CNMPDemoLogger cnmpLogger) {
-        CNMPDemo.cnmpLogger = cnmpLogger;
-    }
-
-    public boolean isInTrade() {
-        return inTrade;
-    }
-
-    public void setInTrade(boolean inTrade) {
-        this.inTrade = inTrade;
-    }
-
-    public String getPriceStreamName() {
-        return priceStreamName;
-    }
-
-    public void setPriceStreamName(String priceStreamName) {
-        this.priceStreamName = priceStreamName;
     }
 
 }
